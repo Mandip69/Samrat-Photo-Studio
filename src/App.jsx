@@ -2,7 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './component/Navbar';
 import Home from './pages/home';
-// import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/portfolio';
+import Services from './pages/services';
 // import ShopPage from './pages/shop';
 // import AboutPage from './pages/about';
 // import ContactPage from './pages/contact';
@@ -14,6 +15,9 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/services" element={<Services />} />
       
     </Routes>
     <Footer />
