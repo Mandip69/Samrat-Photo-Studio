@@ -6,7 +6,7 @@ import Portfolio from './pages/portfolio';
 import Services from './pages/services';
 // import ShopPage from './pages/shop';
 // import AboutPage from './pages/about';
-// import ContactPage from './pages/contact';
+import Contact from './pages/contact';
 import Footer from './component/Footer';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/services" element={<Services />} />
+            <Route path='/contact' element={<Contact />} />
       
     </Routes>
     <Footer />
