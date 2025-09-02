@@ -5,7 +5,7 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Services from './pages/services';
 // import ShopPage from './pages/shop';
-// import AboutPage from './pages/about';
+import About from './pages/about';
 import Contact from './pages/contact';
 import Book from './pages/book';
 import Footer from './component/Footer';
@@ -21,6 +21,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/book' element={<Book />} />
+            <Route path='/about' element={<About />} />
       
     </Routes>
     <Footer />
